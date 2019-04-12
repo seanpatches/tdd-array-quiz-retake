@@ -1,3 +1,5 @@
+const { bigFinder } = require('../lib/index.js');
+
 describe('quiz function', () =>{
   
   it('filters and displays big numbers', () =>{
