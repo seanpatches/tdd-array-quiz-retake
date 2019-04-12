@@ -2,19 +2,19 @@
 
 * Use **standard lab submission procedure**: fork, clone, work, push, PR!
 
-## Instructions: "Don't Ask Why"
+## Instructions: "Big"
 
 Write a **tested** (jest unit tested) library function (a single `function` exported from a module/file)
-that takes an array of words (strings, _you can assume valid input_) and returns a new array that:
+that takes an array of numbers and returns a new array that:
 
-* Has removed any words that contain the letter `Y` or `y`. (HINT: See [`includes`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/includes))
-* Has modified the original word to be a phrase of the format: "Is it &lt;word&gt;?"
+* Has removed any numbers less than 5
+* Has modified the original number to be a phrase of the format: "Wow, 10 is big!"
 
 Test Case:
 
 Input | Output
 ---|---
-['sky', 'hot', 'Yeti', 'green'] | ['Is it hot?', 'Is it green?']
+[1, 3, 5, 7, 2] | ['Wow, 7 is big!']
 
 **NOTE: You are _not_ being asked to implement the array methods like we did on the first lab. You are using normal, built-in array methods and combining them to achieve a specific purpose!**
 
